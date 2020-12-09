@@ -1,0 +1,6 @@
+a = [int(i) for i in input().split()]
+a_list = list(a)
+print (a_list)
+for i in a_list:
+    if int(i)%2 == 0:
+      print(i, end=' ')

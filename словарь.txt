@@ -1,0 +1,8 @@
+s = {'dog': 'собака', 'eagle': 'орёл', 'wolf': 'ауфффф))', 'support': 'поддержка', 'bear': 'медведь', 'turtle': 'черепаха', 'baby': 'малыш'} 
+s = dict(reversed(item) for item in s.items())
+print('Словарь:', len(s))
+print()
+list_keys = list(s.keys())
+list_keys.sort()
+for i in list_keys:
+  print(i, ':', s[i])

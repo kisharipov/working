@@ -1,0 +1,7 @@
+print("Введите первый список")
+a = [int(i) for i in input().split()]
+a_set = set(a)
+print("Введите второй список")
+b = [int(i) for i in input().split()]
+b_set = set(b)
+print(a_set & b_set)

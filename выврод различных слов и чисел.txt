@@ -1,0 +1,3 @@
+a = [str(i) for i in input().split()]
+a_set = set(a)
+print(len(set(a)))
